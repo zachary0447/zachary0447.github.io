@@ -89,16 +89,21 @@
 <li>Node.js</li>
 <li>Git<br>事实上 Hexo 的使用方式相当程度上依赖于 Unix 风格的命令行。所以 Git Bash 对 Windows 用户（例如我）而言，能对使用 Hexo 提供很大方便。</li>
 </ul>
-<h2 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><p>安装 Hexo 用到了随着 Node.js 自动安装的 JavaScript 包管理器 npm。<br>在 Git Bash 下输入命令<br>    $ npm install -g hexo-cli<br>即可开始安装 Hexo。</p>
-<h2 id="建站"><a href="#建站" class="headerlink" title="建站"></a>建站</h2><p>安装 Hexo 之后，在想用于管理 Hexo 的本地文件夹中输入<br>    $ hexo init <folder><br>    $ cd <folder><br>    $ npm install<br>即可建立博客对应的本地文件。</folder></folder></p>
-<h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><p>输入命令<br>    $ hexo new <title><br>可以创建新文章。</title></p>
-<h2 id="生成文件"><a href="#生成文件" class="headerlink" title="生成文件"></a>生成文件</h2><p>通常我们用 Markdown 格式的写作，需要渲染生成静态文件之后才能让用户方便地浏览。Hexo 生成文件十分简单，只需要一条命令<br>    $ hexo generate</p>
-<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>Hexo 可以很方便地将自身部署在 GitHub 上。<br>首先要修改根目录下的 _config.yml ，这是 Hexo 的配置文件。一个正确的 Hexo 部署配置至少要有 type 和 repo，这里 type 我们使用的是 git。<br>之后安装 hexo-deployer-git。<br>    $ npm install hexo-deployer-git –save<br>最后，输入<br>    $ hexo deploy<br>即可将网站部署在服务器上。</p>
+<h2 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><p>安装 Hexo 用到了随着 Node.js 自动安装的 JavaScript 包管理器 npm。<br>在 Git Bash 下输入命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure></p>
+<p>即可开始安装 Hexo。</p>
+<h2 id="建站"><a href="#建站" class="headerlink" title="建站"></a>建站</h2><p>安装 Hexo 之后，在想用于管理 Hexo 的本地文件夹中输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;folder&gt;</div><div class="line">$ cd &lt;folder&gt;</div><div class="line">$ npm install</div></pre></td></tr></table></figure></p>
+<p>即可建立博客对应的本地文件。</p>
+<h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><p>输入命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new &lt;title&gt;</div></pre></td></tr></table></figure></p>
+<p>可以创建新文章。</p>
+<h2 id="生成文件"><a href="#生成文件" class="headerlink" title="生成文件"></a>生成文件</h2><p>通常我们用 Markdown 格式的写作，需要渲染生成静态文件之后才能让用户方便地浏览。Hexo 生成文件十分简单，只需要一条命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure></p>
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>Hexo 可以很方便地将自身部署在 GitHub 上。<br>首先要修改根目录下的 _config.yml ，这是 Hexo 的配置文件。一个正确的 Hexo 部署配置至少要有 type 和 repo，这里 type 我们使用的是 git。<br>之后安装 hexo-deployer-git。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure></p>
+<p>最后，输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure></p>
+<p>即可将网站部署在服务器上。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/10/12/Use_Hexo_On_Github/" data-id="cj8o28sf4000010uogekds4tx" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2017/10/12/Use_Hexo_On_Github/" data-id="cj8o2ejb000019wuo4zkn6fvy" class="article-share-link">Partager</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
@@ -136,7 +141,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/10/12/hexo-test/" data-id="cj8o28sf9000110uob7a7oag2" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2017/10/12/hexo-test/" data-id="cj8o2ejb300029wuolnpe87bp" class="article-share-link">Partager</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo-测试/">hexo 测试</a></li></ul>
@@ -183,7 +188,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/10/12/hello-world/" data-id="cj8o28sff000310uor5nsp0sx" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2017/10/12/hello-world/" data-id="cj8o2ejas00009wuoekpodda0" class="article-share-link">Partager</a>
       
       
     </footer>
